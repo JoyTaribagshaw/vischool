@@ -1,5 +1,5 @@
 .sect-logo {
-  width: 10%;
+  width: 60%;
 }
 
 .past-events-top {
@@ -9,22 +9,26 @@
 .sect-div {
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 20px;
 }
 
 .sect-p {
   color: #383535;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .sect-heading {
   color: #4b0082;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .past-event {
   text-align: center;
   padding: 0 15%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
 
@@ -32,4 +36,26 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .past-event {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .sect-logo {
+    width: 10%;
+  }
+
+  .sect-div {
+    flex-direction: row;
+  }
+
+  .sect-p {
+    text-align: left;
+  }
+
+  .sect-heading {
+    text-align: left;
+  }
 }

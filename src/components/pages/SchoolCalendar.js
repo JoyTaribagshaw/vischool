@@ -44,7 +44,7 @@ const SchoolCalendar = () => {
         Stay updated with our school calendar for upcoming events and
         activities.
       </p>
-      <a href="/resources/download.pdf" className="download-link" download>
+      <a href="/resources/download.pdf" className="download-link" download="School Calendar.pdf">
         <span>Download PDF</span>
         <FaDownload className="download-icon" />
       </a>
@@ -74,9 +74,6 @@ const SchoolCalendar = () => {
                       <FaMapMarkerAlt className="news-article-icon" />
                       {event.location}
                     </p>
-                    <button type="button" className="event-more">
-                      View Details
-                    </button>
                   </div>
                 </div>
               ))}

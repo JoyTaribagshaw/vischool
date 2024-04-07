@@ -10,10 +10,12 @@ const Footer = () => (
       <div className="home-contact-info">
         <h2 className="home-contact-heading">QUICK LINKS</h2>
         <div className="dash" />
-        <p>About Us</p>
-        <p>News & Events</p>
-        <p>Admission</p>
-        <p>Contact</p>
+        <div className="footer-links">
+          <p>About Us</p>
+          <p>News & Events</p>
+          <p>Admission</p>
+          <p>Contact</p>
+        </div>
       </div>
       <div className="contact-map">
         <h2 className="home-contact-heading">LOCATION MAP</h2>
@@ -23,26 +25,28 @@ const Footer = () => (
       <div className="home-contact-info">
         <h2 className="home-contact-heading">CONTACT US</h2>
         <div className="dash" />
-        <p>
-          <FaMapMarkerAlt />
-          {' '}
-          123 Main Street
-        </p>
-        <p>
-          <FaCity />
-          {' '}
-          City, State, ZIP
-        </p>
-        <p>
-          <FaEnvelope />
-          {' '}
-          info@example.com
-        </p>
-        <p>
-          <span className="flip-icon"><FaPhone /></span>
-          {' '}
-          (123) 456-7890
-        </p>
+        <div className="footer-links">
+          <p>
+            <FaMapMarkerAlt />
+            {' '}
+            123 Main Street
+          </p>
+          <p>
+            <FaCity />
+            {' '}
+            City, State, ZIP
+          </p>
+          <p>
+            <FaEnvelope />
+            {' '}
+            info@example.com
+          </p>
+          <p>
+            <span className="flip-icon"><FaPhone /></span>
+            {' '}
+            (123) 456-7890
+          </p>
+        </div>
       </div>
     </div>
     <div className="footer-bottom">

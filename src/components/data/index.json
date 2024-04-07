@@ -347,5 +347,47 @@
         }
       ]
     }
+  ],
+  "News": [
+    {
+      "id":"1",
+      "news-heading": "Opening of School",
+      "news-date": "22nd May 2024",
+      "news-info": "We are excited to announce the opening of the new school year at [School Name]! We hope you had a wonderful summer break and are ready to embark on a year filled with learning, growth, and new opportunities.",
+      "news-image": "./images/bg-1.jpg",
+      "type": "News"
+    },
+    {
+      "id": "2",
+      "news-heading": "New Product Launch",
+      "news-date": "10th June 2024",
+      "news-info": "We are thrilled to introduce our latest product, the XYZ Pro. It's packed with innovative features and designed to enhance your daily life. Visit our website to learn more and be the first to get your hands on this cutting-edge technology.",
+      "news-image": "./images/bg2.jpg",
+      "type": "News"
+    },
+    {
+      "id": "3",
+      "news-heading": "Community Cleanup Event",
+      "news-date": "27th June 2024",
+      "news-info": "Join us on 5th July for a community cleanup event. Let's come together to make our neighborhood cleaner and greener. Bring your friends and family, and let's make a positive impact on our environment. Together, we can create a better future.",
+      "news-image": "./images/bg3.jpg",
+      "type": "News"
+    },
+    {
+      "id": "4",
+      "news-heading": "Charity Fundraiser Gala",
+      "news-date": "15th July 2024",
+      "news-info": "Save the date for our annual Charity Fundraiser Gala on 25th August. Join us for an elegant evening of fine dining, live entertainment, and silent auctions, all for a great cause. Your support will help us make a difference in the lives of those in need.",
+      "news-image": "./images/bg4.jpg",
+      "type": "News"
+    },
+    {
+      "id":"5",
+      "news-heading": "Parent-Teacher Conference",
+      "news-date": "10th July 2024",
+      "news-info": "We invite all parents to attend our Parent-Teacher Conference. It's an invaluable opportunity to discuss your child's progress, gain insights from their teachers, and collaborate on strategies to support their academic journey. Together, we can ensure their success.",
+      "news-image": "./images/bg5.jpg",
+      "type": "News"
+    }
   ]
 }
