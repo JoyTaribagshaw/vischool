@@ -1,0 +1,98 @@
+.enrollment-div {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  padding: 3% 8%;
+  gap: 5%;
+}
+
+.enrolllment-news {
+  width: 50%;
+}
+
+.flex-item {
+  flex: 1;
+  flex-basis: 0;
+}
+
+.enrollment-news-heading {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 45.22px;
+  color: rgb(32, 59, 106);
+  margin-bottom: 20px;
+}
+
+.enrollment-news-sub-heading {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 20px;
+}
+
+.enrollment-news-info {
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.5px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 20px;
+}
+
+.enrollment-procedure-info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.enrollment-procedure-info-number {
+  font-family: "Muli", sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 60px;
+  color: rgb(227, 167, 47);
+  font-style: italic;
+}
+
+.enrollment-procedure-info-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.enrollment-procedure-info-sub-heading {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.28px;
+  color: rgb(32, 59, 106);
+}
+
+.enrollment-news-button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(227, 167, 47);
+  display: block;
+  margin-bottom: 20px;
+  transition: background-color 0.5s;
+}
+
+.enrollment-news-button:hover {
+  background-color: white;
+  color: rgb(227, 167, 47);
+  border: 1px solid rgb(227, 167, 47);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .enrollment-div {
+    flex-direction: column;
+  }
+}

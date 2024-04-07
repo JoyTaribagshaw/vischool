@@ -1,0 +1,68 @@
+
+.about-us-second-paragraph {
+  text-align: center;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgb(66, 74, 79);
+}
+
+.about-us-third-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0% 4% 0% 4%;
+  gap: 20px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.mission-img {
+  width: 100%;
+}
+
+.about-testimonies {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.mission-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(66, 74, 79);
+}
+
+.about-with-sidemenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.about-us-fourth-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0% 4% 0% 4%;
+  gap: 20px;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .about-us-fourth-div {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .about-us-third-div {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .mission-img {
+    height: 300px;
+  }
+}
