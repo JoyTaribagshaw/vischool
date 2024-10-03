@@ -43,7 +43,7 @@ const Footer = () => (
           </p>
           <p>
             <span className="flip-icon"><FaPhone /></span>
-            (+234) 816 735 0455
+            (+234) 816 735 0455 & (+234) 702 610 3326
           </p>
         </div>
       </div>

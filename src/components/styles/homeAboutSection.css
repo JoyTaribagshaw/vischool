@@ -45,11 +45,10 @@
 }
 
 @media (min-width: 768px) {
-
   .home-about-info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 30px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
   }
 
   .home-about {
