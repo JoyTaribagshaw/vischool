@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logoTwo from '../../images/logo1.png';
+import logo from '../../images/logobg.png';
 import '../styles/Navigation.css';
+// import { RiH1 } from 'react-icons/ri';
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,11 +24,11 @@ const Navigation = () => {
 
         <div className="mobile-menu">
           <div className="logo-name">
-            <img src={logoTwo} alt="logo-sec" className="logo-sec" />
+            <img src={logo} alt="logo-sec" className="logo-sec" />
             <div className="virgitab-name">
-              <p>
+              <h1>
                 Virgitab International School
-              </p>
+              </h1>
             </div>
           </div>
           <div
