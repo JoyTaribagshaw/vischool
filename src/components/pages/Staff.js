@@ -4,7 +4,7 @@ import team from '../../images/staff.jpeg';
 
 const Staff = () => (
   <div className="staff-section">
-    <h2>Meet our team</h2>
+    <h2>Meet Our Team</h2>
     <p>
       Our teachers are not just educators;
       they are mentors, motivators, and role models who go above and
